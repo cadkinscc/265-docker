@@ -1,4 +1,4 @@
-
+#!/bin/bash
 useradd -m -d /home/sshuser -s /bin/bash sshuser
 mkdir /home/sshuser/.ssh
 cp /home/chirs/.ssh/id_rsa.pub /home/sshuser/.ssh/authorize$
